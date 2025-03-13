@@ -25,8 +25,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_skpblocks_block_init() {
-	register_block_type( __DIR__ . '/build/skpblocks' );
-	register_block_type( __DIR__ . '/build/skp' );
+	register_block_type( __DIR__ . '/build/header' );
+	register_block_type( __DIR__ . '/build/footer' );
 }
 add_action( 'init', 'create_block_skpblocks_block_init' );
 

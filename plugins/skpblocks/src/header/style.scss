@@ -1,0 +1,15 @@
+@use '../css/utilities/all' as *;
+@use '../css/variables/colors' as c;
+
+.skp-header {
+    height: 88px;
+    background-color: c.$green-grey;
+    color: c.$white;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}
