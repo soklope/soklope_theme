@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "settings": {
+      "color": {
+        "custom": {
+            "content": {
+                "support": true
+              }
+        },
+        "palette": [
+          { "name": "Primary", "slug": "primary", "color": "#0073aa" },
+          { "name": "Secondary", "slug": "secondary", "color": "#23282d" }
+        ]
+      },
+      "typography": {
+        "fontSizes": [
+          { "name": "Small", "slug": "small", "size": "14px" },
+          { "name": "Medium", "slug": "medium", "size": "16px" }
+        ]
+      }
+    },
+    "styles": {
+      "color": {
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    }
+  }
+  

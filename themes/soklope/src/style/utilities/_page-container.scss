@@ -1,0 +1,13 @@
+@use '../../style/mixins/breakpoints' as *;
+
+.page-container {
+
+    @include break(tablet) {
+    }
+
+    @include break(laptop) {
+    }
+
+    @include break(desktop) {
+    }
+}
