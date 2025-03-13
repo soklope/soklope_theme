@@ -1,1 +1,2 @@
-// src/app.js
+import './scripts/header'
+import './scripts/footer'

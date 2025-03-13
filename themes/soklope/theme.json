@@ -1,29 +1,71 @@
 {
     "version": 2,
     "settings": {
-      "color": {
-        "custom": {
-            "content": {
-                "support": true
-              }
+        "color": {
+            "custom": {
+                "content": {
+                    "support": true
+                }
+            },
+            "palette": [
+                { "name": "Green", "slug": "green", "color": "#20FC8F" },
+                { "name": "White", "slug": "white", "color": "#FFFFFF" },
+                { "name": "Dark Grey", "slug": "dark-grey", "color": "#171717" },
+                { "name": "Medium Grey", "slug": "medium-grey", "color": "#272826" },
+                { "name": "Green Grey", "slug": "green-grey", "color": "#2B2D29" }
+            ]
         },
-        "palette": [
-          { "name": "Primary", "slug": "primary", "color": "#0073aa" },
-          { "name": "Secondary", "slug": "secondary", "color": "#23282d" }
-        ]
-      },
-      "typography": {
-        "fontSizes": [
-          { "name": "Small", "slug": "small", "size": "14px" },
-          { "name": "Medium", "slug": "medium", "size": "16px" }
-        ]
-      }
+        "typography": {
+            "fontFamilies": [
+                { "name": "Koulen", "slug": "primary-font", "fontFamily": "\"Koulen\", serif" },
+                { "name": "Overpass", "slug": "secondary-font", "fontFamily": "\"Overpass\", serif" }
+            ],
+            "fontSizes": [
+                { "name": "Greeting Mobile", "slug": "greeting-mobile", "size": "48px" },
+                { "name": "Greeting Tablet", "slug": "greeting-tablet", "size": "64px" },
+                { "name": "Greeting Laptop", "slug": "greeting-laptop", "size": "96px" },
+                { "name": "Greeting Desktop", "slug": "greeting-desktop", "size": "112px" },
+                
+                { "name": "Title Mobile", "slug": "title-mobile", "size": "40px" },
+                { "name": "Title Tablet", "slug": "title-tablet", "size": "64px" },
+                { "name": "Title Laptop", "slug": "title-laptop", "size": "96px" },
+                { "name": "Title Desktop", "slug": "title-desktop", "size": "112px" },
+
+                { "name": "Sub Title Mobile", "slug": "sub-title-mobile", "size": "16px" },
+                { "name": "Sub Title Tablet", "slug": "sub-title-tablet", "size": "24px" },
+                { "name": "Sub Title Laptop", "slug": "sub-title-laptop", "size": "32px" },
+                { "name": "Sub Title Desktop", "slug": "sub-title-desktop", "size": "40px" },
+
+                { "name": "Text Mobile", "slug": "text-mobile", "size": "14px" },
+                { "name": "Text Tablet", "slug": "text-tablet", "size": "16px" },
+                { "name": "Text Laptop", "slug": "text-laptop", "size": "20px" },
+                { "name": "Text Desktop", "slug": "text-desktop", "size": "24px" },
+
+                { "name": "Button Text Mobile", "slug": "button-text-mobile", "size": "16px" },
+                { "name": "Button Text Tablet", "slug": "button-text-tablet", "size": "16px" },
+                { "name": "Button Text Laptop", "slug": "button-text-laptop", "size": "16px" },
+                { "name": "Button Text Desktop", "slug": "button-text-desktop", "size": "16px" },
+
+                { "name": "Navigation Text Mobile", "slug": "navigation-text-mobile", "size": "48px" },
+                { "name": "Navigation Text Tablet", "slug": "navigation-text-tablet", "size": "64px" },
+                { "name": "Navigation Text Laptop", "slug": "navigation-text-laptop", "size": "96px" },
+                { "name": "Navigation Text Desktop", "slug": "navigation-text-desktop", "size": "112px" },
+
+                { "name": "Contact Text Mobile", "slug": "contact-text-mobile", "size": "16px" },
+                { "name": "Contact Text Tablet", "slug": "contact-text-tablet", "size": "20px" },
+                { "name": "Contact Text Laptop", "slug": "contact-text-laptop", "size": "24px" },
+                { "name": "Contact Text Desktop", "slug": "contact-text-desktop", "size": "28px" },
+
+                { "name": "Project Link Mobile", "slug": "project-link-mobile", "size": "14px" },
+                { "name": "Project Link Tablet", "slug": "project-link-tablet", "size": "18px" },
+                { "name": "Project Link Laptop", "slug": "project-link-laptop", "size": "24px" },
+                { "name": "Project Link Desktop", "slug": "project-link-desktop", "size": "28px" }
+            ]
+        }
     },
     "styles": {
-      "color": {
-        "background": "#ffffff",
-        "text": "#000000"
-      }
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--secondary-font)"
+        }
     }
-  }
-  
+}

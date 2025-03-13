@@ -65,4 +65,24 @@ register_nav_menus(array(
     'footer' => __('Footer Menu', 'my-block-theme'),
 ));
 
+function enqueue_google_fonts() {
+    // Enqueue the Google Fonts Stylesheets
+    wp_enqueue_style(
+        'google-fonts', // Handle name for the stylesheet
+        'https://fonts.googleapis.com/css2?family=Koulen&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap', // Google Fonts URL
+        false, // No dependencies
+        null // Version (optional)
+    );
+
+    // Preconnect to Google Fonts and Fonts.gstatic.com
+    wp_resource_hints(
+        array(
+            'https://fonts.googleapis.com', // Preconnect to Google Fonts
+            'https://fonts.gstatic.com'     // Preconnect to Google Fonts CDN
+        ), 'preconnect'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_google_fonts');
+
+
 ?>

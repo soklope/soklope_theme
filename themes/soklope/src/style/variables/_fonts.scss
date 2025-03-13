@@ -1,42 +1,42 @@
-$primary-font: "Koulen", serif;
-$secondary-font: "Overpass", serif;
+$primary-font: var(--wp--preset--font-family--primary-font);
+$secondary-font: var(--wp--preset--font-family--secondary-font);
 
-$greeting-mobile: 48px;
-$greeting-tablet: 64px;
-$greeting-laptop: 96px;
-$greeting-desktop: 112px;
+$greeting-mobile: var(--wp--preset--font-size--greeting-mobile);
+$greeting-tablet: var(--wp--preset--font-size--greeting-tablet);
+$greeting-laptop: var(--wp--preset--font-size--greeting-laptop);
+$greeting-desktop: var(--wp--preset--font-size--greeting-desktop);
 
-$title-mobile: 40px;
-$title-tablet: 64px;
-$title-laptop: 96px;
-$title-desktop: 112px;
+$title-mobile: var(--wp--preset--font-size--title-mobile);
+$title-tablet: var(--wp--preset--font-size--title-tablet);
+$title-laptop: var(--wp--preset--font-size--title-laptop);
+$title-desktop: var(--wp--preset--font-size--title-desktop);
 
-$sub-title-mobile: 16px;
-$sub-title-tablet: 24px;
-$sub-title-laptop: 32px;
-$sub-title-desktop: 40px;
+$sub-title-mobile: var(--wp--preset--font-size--sub-title-mobile);
+$sub-title-tablet: var(--wp--preset--font-size--sub-title-tablet);
+$sub-title-laptop: var(--wp--preset--font-size--sub-title-laptop);
+$sub-title-desktop: var(--wp--preset--font-size--sub-title-desktop);
 
-$text-mobile: 14px;
-$text-tablet: 16px;
-$text-laptop: 20px;
-$text-desktop: 24px;
+$text-mobile: var(--wp--preset--font-size--text-mobile);
+$text-tablet: var(--wp--preset--font-size--text-tablet);
+$text-laptop: var(--wp--preset--font-size--text-laptop);
+$text-desktop: var(--wp--preset--font-size--text-desktop);
 
-$button-text-mobile: 16px;
-$button-text-tablet: 16px;
-$button-text-laptop: 16px;
-$button-text-desktop: 16px;
+$button-text-mobile: var(--wp--preset--font-size--button-text-mobile);
+$button-text-tablet: var(--wp--preset--font-size--button-text-tablet);
+$button-text-laptop: var(--wp--preset--font-size--button-text-laptop);
+$button-text-desktop: var(--wp--preset--font-size--button-text-desktop);
 
-$navigation-text-mobile: 48px;
-$navigation-text-tablet: 64px;
-$navigation-text-laptop: 96px;
-$navigation-text-desktop: 112px;
+$navigation-text-mobile: var(--wp--preset--font-size--navigation-text-mobile);
+$navigation-text-tablet: var(--wp--preset--font-size--navigation-text-tablet);
+$navigation-text-laptop: var(--wp--preset--font-size--navigation-text-laptop);
+$navigation-text-desktop: var(--wp--preset--font-size--navigation-text-desktop);
 
-$contact-text-mobile: 16px;
-$contact-text-tablet: 20px;
-$contact-text-laptop: 24px;
-$contact-text-desktop: 28px;
+$contact-text-mobile: var(--wp--preset--font-size--contact-text-mobile);
+$contact-text-tablet: var(--wp--preset--font-size--contact-text-tablet);
+$contact-text-laptop: var(--wp--preset--font-size--contact-text-laptop);
+$contact-text-desktop: var(--wp--preset--font-size--contact-text-desktop);
 
-$project-link-mobile: 14px;
-$project-link-tablet: 18px;
-$project-link-laptop: 24px;
-$project-link-desktop: 28px;
+$project-link-mobile: var(--wp--preset--font-size--project-link-mobile);
+$project-link-tablet: var(--wp--preset--font-size--project-link-tablet);
+$project-link-laptop: var(--wp--preset--font-size--project-link-laptop);
+$project-link-desktop: var(--wp--preset--font-size--project-link-desktop);

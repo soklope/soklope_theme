@@ -1,7 +1,7 @@
 body {
   position: relative;
-  color: #FFFFFF;
-  background: linear-gradient(135deg, #2B2D29 10%, #272826 30%, #171717 100%);
+  color: var(--wp--preset--color--white);
+  font-family: var(--wp--preset--font-family--secondary-font) !important;
 }
 
 ::-webkit-scrollbar {
@@ -89,86 +89,86 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .util-title {
-  color: #20FC8F;
-  font-family: "Koulen", serif;
-  font-size: 40px;
+  color: var(--wp--preset--color--green);
+  font-family: var(--wp--preset--font-family--primary-font);
+  font-size: var(--wp--preset--font-size--title-mobile);
   margin-right: auto;
 }
 .util-title::after {
   content: ".";
-  color: #FFFFFF;
+  color: var(--wp--preset--color--white);
 }
 @media (min-width: 768px) {
   .util-title {
-    font-size: 64px;
+    font-size: var(--wp--preset--font-size--title-tablet);
     top: 40px;
     left: 40px;
   }
 }
 @media (min-width: 1089px) {
   .util-title {
-    font-size: 96px;
+    font-size: var(--wp--preset--font-size--title-laptop);
     top: 48px;
     left: 48px;
   }
 }
 @media (min-width: 1538px) {
   .util-title {
-    font-size: 112px;
+    font-size: var(--wp--preset--font-size--title-desktop);
     top: 56px;
     left: 56px;
   }
 }
 
 .util-sub-title {
-  color: #20FC8F;
-  font-family: "Koulen", serif;
-  font-size: 16px;
+  color: var(--wp--preset--color--green);
+  font-family: var(--wp--preset--font-family--primary-font);
+  font-size: var(--wp--preset--font-size--sub-title-mobile);
   margin-bottom: 8px;
 }
 .util-sub-title::after {
   content: ".";
-  color: #FFFFFF;
+  color: var(--wp--preset--color--white);
 }
 @media (min-width: 768px) {
   .util-sub-title {
-    font-size: 24px;
+    font-size: var(--wp--preset--font-size--sub-title-tablet);
   }
 }
 @media (min-width: 1089px) {
   .util-sub-title {
-    font-size: 32px;
+    font-size: var(--wp--preset--font-size--sub-title-laptop);
   }
 }
 @media (min-width: 1538px) {
   .util-sub-title {
-    font-size: 40px;
+    font-size: var(--wp--preset--font-size--sub-title-desktop);
   }
 }
 
 .slash--white {
-  color: #FFFFFF;
+  color: var(--wp--preset--color--white);
 }
 
 .util-text {
-  color: #FFFFFF;
-  font-family: "Overpass", serif;
-  font-size: 14px;
+  color: var(--wp--preset--color--white);
+  font-family: var(--wp--preset--font-family--secondary-font);
+  font-size: var(--wp--preset--font-size--text-mobile);
 }
 @media (min-width: 768px) {
   .util-text {
-    font-size: 16px;
+    font-size: var(--wp--preset--font-size--text-tablet);
   }
 }
 @media (min-width: 1089px) {
   .util-text {
-    font-size: 20px;
+    font-size: var(--wp--preset--font-size--text-laptop);
     max-width: 800px;
   }
 }
 @media (min-width: 1538px) {
   .util-text {
-    font-size: 24px;
+    font-size: var(--wp--preset--font-size--text-desktop);
   }
 }
 
@@ -182,21 +182,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .swiper-slide {
-  color: #FFFFFF;
+  color: var(--wp--preset--color--white);
 }
 
 .swiper-button-prev {
-  color: #FFFFFF !important;
+  color: var(--wp--preset--color--white) !important;
   top: 28px !important;
   right: 64px !important;
   left: unset !important;
 }
 .swiper-button-prev::after {
-  font-family: "Koulen", serif !important;
+  font-family: var(--wp--preset--font-family--primary-font) !important;
   font-size: 20px !important;
 }
 .swiper-button-prev:hover {
-  color: #20FC8F !important;
+  color: var(--wp--preset--color--green) !important;
   cursor: none !important;
 }
 @media (min-width: 768px) {
@@ -228,16 +228,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .swiper-button-next {
-  color: #FFFFFF !important;
+  color: var(--wp--preset--color--white) !important;
   top: 28px !important;
   right: 20px !important;
 }
 .swiper-button-next::after {
-  font-family: "Koulen", serif !important;
+  font-family: var(--wp--preset--font-family--primary-font) !important;
   font-size: 20px !important;
 }
 .swiper-button-next:hover {
-  color: #20FC8F !important;
+  color: var(--wp--preset--color--green) !important;
   cursor: none !important;
 }
 @media (min-width: 768px) {
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .swiper-scrollbar-drag {
-  background-color: #FFFFFF !important;
+  background-color: var(--wp--preset--color--white) !important;
   border-radius: 0 !important;
   height: 2px !important;
 }
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   height: 28px;
   width: 8px;
-  background-color: #FFFFFF;
+  background-color: var(--wp--preset--color--white);
   animation: titleBlink 0.4s infinite alternate;
 }
 @media (min-width: 768px) {
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
   }
   50%, 100% {
-    background-color: #FFFFFF;
+    background-color: var(--wp--preset--color--white);
   }
 }
 .text-cursor::after {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   height: 10px;
   width: 4px;
-  background-color: #FFFFFF;
+  background-color: var(--wp--preset--color--white);
   animation: titleBlink 0.4s infinite alternate;
 }
 @media (min-width: 768px) {
@@ -354,6 +354,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
   }
   50%, 100% {
-    background-color: #FFFFFF;
+    background-color: var(--wp--preset--color--white);
   }
 }
