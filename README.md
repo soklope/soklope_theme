@@ -1,0 +1,1 @@
+# soklope_theme
