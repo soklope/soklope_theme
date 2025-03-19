@@ -8,7 +8,7 @@
   \************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/header2","version":"0.1.0","title":"Header2","category":"skpblocks","icon":"menu","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/header","version":"0.1.0","title":"Header","category":"skpblocks","icon":"button","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -43,7 +43,7 @@ function Edit() {
       className: "skp-header__inner skp-page-container",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
         renderAppender: _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.ButtonBlockAppender,
-        allowedBlocks: ["core/site-logo", "core/navigation"]
+        allowedBlocks: ["core/site-logo", "core/navigation", "skpblocks/burger"]
       })
     })
   });

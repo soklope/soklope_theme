@@ -3,13 +3,16 @@
 
 .skp-header {
     height: 88px;
-    background-color: c.$green-grey;
+    background-color: c.$light-grey;
     color: c.$white;
-
+    
     &__inner {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         height: 100%;
+    }
+
+    .wp-block-site-logo {
+        margin-right: auto;
     }
 }

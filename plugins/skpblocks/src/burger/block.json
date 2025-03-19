@@ -1,15 +1,30 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/header",
+	"name": "create-block/burger",
 	"version": "0.1.0",
-	"title": "Header",
+	"title": "Burger",
 	"category": "skpblocks",
-	"icon": "button",
+	"icon": "menu",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
 		"html": false
+	},
+	"attributes": {
+		"menuItems": {
+			"type": "array",
+			"default": [
+				{ "label": "Home", "url": "/" },
+				{ "label": "About", "url": "/about" },
+				{ "label": "Services", "url": "/services" },
+				{ "label": "Contact", "url": "/contact" }
+			]
+		},
+		"isOpen": {
+			"type": "boolean",
+			"default": false
+		}
 	},
 	"textdomain": "skpblocks",
 	"editorScript": "file:./index.js",

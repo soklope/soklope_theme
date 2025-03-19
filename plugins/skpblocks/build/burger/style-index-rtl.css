@@ -1,6 +1,6 @@
-/*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header2/style.scss ***!
-  \***********************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/burger/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
 *,
 *::before,
 *::after {
@@ -371,14 +371,33 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--wp--preset--color--white);
   }
 }
-.skp-header {
-  height: 88px;
-  background-color: var(--wp--preset--color--green-grey);
-  color: var(--wp--preset--color--white);
+.burger-menu {
+  display: none;
+  background: white;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.skp-header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+
+.burger-menu.is-open {
+  display: block;
+}
+
+.burger-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.burger-menu ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.burger-menu ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
 }

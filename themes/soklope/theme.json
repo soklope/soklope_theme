@@ -10,6 +10,7 @@
             "palette": [
                 { "name": "Green", "slug": "green", "color": "#20FC8F" },
                 { "name": "White", "slug": "white", "color": "#FFFFFF" },
+                { "name": "Light Grey", "slug": "light-grey", "color": "#D4D4D4" },
                 { "name": "Dark Grey", "slug": "dark-grey", "color": "#171717" },
                 { "name": "Medium Grey", "slug": "medium-grey", "color": "#272826" },
                 { "name": "Green Grey", "slug": "green-grey", "color": "#2B2D29" }

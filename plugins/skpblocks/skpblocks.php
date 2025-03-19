@@ -26,6 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function create_block_skpblocks_block_init() {
 	register_block_type( __DIR__ . '/build/header' );
+	register_block_type( __DIR__ . '/build/burger' );
 }
 add_action( 'init', 'create_block_skpblocks_block_init' );
 
@@ -38,3 +39,14 @@ add_filter( 'block_categories_all', function( $categories ) {
 
     return $categories;
 }, 5 ); // Lower priority *might* help if other plugins are modifying categories
+
+function enqueue_hamburger_styles() {
+    wp_enqueue_style(
+        'hamburgers-css',
+        'https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css',
+        array(),
+        '1.1.3'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_hamburger_styles');
+

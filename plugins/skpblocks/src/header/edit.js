@@ -14,7 +14,8 @@ export default function Edit() {
                     renderAppender={InnerBlocks.ButtonBlockAppender}
                     allowedBlocks={[
                         "core/site-logo",
-                        "core/navigation"
+                        "core/navigation",
+                        "create-block/burger",
                     ]}
                 />
             </div>

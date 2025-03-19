@@ -1,11 +1,11 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/header2",
+  "name": "create-block/header",
   "version": "0.1.0",
-  "title": "Header2",
+  "title": "Header",
   "category": "skpblocks",
-  "icon": "menu",
+  "icon": "button",
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
