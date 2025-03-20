@@ -4,13 +4,12 @@
 
 .burger-menu {
     display: none;
-    background: white;
-    padding: 10px;
+    height: calc(100dvh - 88px);
+    background: c.$light-grey;
     position: absolute;
-    top: 50px;
+    top: 88px;
     left: 0;
     right: 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .burger-menu.is-open {

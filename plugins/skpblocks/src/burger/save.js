@@ -16,7 +16,7 @@ export default function Save({ attributes }) {
             </button>
 
             <nav className="burger-menu">
-                <ul>
+                <ul className='skp-page-container'>
                     {menuItems.map((item, index) => (
                         <li key={index}>
                             <a href={item.url}>{item.label}</a>

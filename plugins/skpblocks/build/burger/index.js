@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/burger","version":"0.1.0","title":"Burger","category":"skpblocks","icon":"menu","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"attributes":{"menuItems":{"type":"array","default":[{"label":"Home","url":"/"},{"label":"About","url":"/about"},{"label":"Services","url":"/services"},{"label":"Contact","url":"/contact"}]},"isOpen":{"type":"boolean","default":false}},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"skpblocks/burger","version":"0.1.0","title":"Burger","category":"skpblocks","icon":"menu","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"attributes":{"menuItems":{"type":"array","default":[{"label":"Home","url":"/"},{"label":"About","url":"/about"},{"label":"Services","url":"/services"},{"label":"Contact","url":"/contact"}]},"isOpen":{"type":"boolean","default":false}},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
@@ -239,6 +239,7 @@ function Save({
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
       className: "burger-menu",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+        className: "skp-page-container",
         children: menuItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             href: item.url,

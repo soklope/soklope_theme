@@ -1,0 +1,20 @@
+@use '../css/utilities/all' as *;
+@use '../css/variables/colors' as c;
+
+.skp-header {
+	.block-editor-inner-blocks {
+		width: 100%;
+	}
+	
+	.block-editor-block-list {
+		width: 100%;
+	
+		&__layout {
+			display: flex;
+		}
+	}
+
+	.block-list-appender {
+		right: -64px;
+	}
+}

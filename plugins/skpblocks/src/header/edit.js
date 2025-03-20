@@ -15,7 +15,7 @@ export default function Edit() {
                     allowedBlocks={[
                         "core/site-logo",
                         "core/navigation",
-                        "create-block/burger",
+                        "skpblocks/burger",
                     ]}
                 />
             </div>

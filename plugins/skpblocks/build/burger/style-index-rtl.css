@@ -373,13 +373,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .burger-menu {
   display: none;
-  background: white;
-  padding: 10px;
+  height: calc(100dvh - 88px);
+  background: var(--wp--preset--color--light-grey);
   position: absolute;
-  top: 50px;
+  top: 88px;
   right: 0;
   left: 0;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .burger-menu.is-open {
