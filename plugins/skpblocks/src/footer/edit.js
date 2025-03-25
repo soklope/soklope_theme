@@ -4,20 +4,18 @@ import './editor.scss';
 
 export default function Edit() {
     const blockProps = useBlockProps({
-        className: 'skp-text-image',
+        className: 'skp-footer',
     });
 
     return (
         <div {...blockProps}>
-            <div className='skp-text-image__inner skp-page-container'>
+            <div className='skp-header__inner skp-page-container'>
                 <InnerBlocks
+                    renderAppender={InnerBlocks.ButtonBlockAppender}
                     allowedBlocks={[
-                        "core/image",
-                        "skpblocks/title-text-button"
-                    ]}
-                    template={[
-                        ['core/image'], 
-                        ['skpblocks/title-text-button'] 
+                        "core/site-logo",
+                        "core/paragraph",
+                        "core/navigation",
                     ]}
                 />
             </div>

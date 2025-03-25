@@ -1,11 +1,11 @@
 @use '../css/utilities/all' as *;
 @use '../css/variables/colors' as c;
 
-.skp-header {
+.skp-footer {
     height: 88px;
     background-color: c.$light-grey;
     color: c.$white;
-    margin-bottom: 120px;
+    margin-top: 120px;
     
     &__inner {
         display: flex;

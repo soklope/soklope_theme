@@ -371,15 +371,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--wp--preset--color--white);
   }
 }
-.skp-header .block-editor-inner-blocks {
-  width: 100%;
-}
-.skp-header .block-editor-block-list {
-  width: 100%;
-}
-.skp-header .block-editor-block-list__layout {
+.skp-title-text-button .block-editor-block-list__layout {
   display: flex;
-}
-.skp-header .block-list-appender {
-  left: -64px;
+  flex-direction: column;
+  gap: 16px;
 }

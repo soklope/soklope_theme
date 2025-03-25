@@ -1,11 +1,11 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/title-text-button",
+  "name": "skpblocks/footer",
   "version": "0.1.0",
-  "title": "Title Text Button",
+  "title": "Footer",
   "category": "skpblocks",
-  "icon": "text",
+  "icon": "button",
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {

@@ -1,6 +1,6 @@
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/text-image copy/editor.scss ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/footer/editor.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
 *,
 *::before,
 *::after {
@@ -371,15 +371,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--wp--preset--color--white);
   }
 }
-.skp-header .block-editor-inner-blocks {
+.skp-footer .block-editor-inner-blocks {
   width: 100%;
 }
-.skp-header .block-editor-block-list {
+.skp-footer .block-editor-block-list {
   width: 100%;
 }
-.skp-header .block-editor-block-list__layout {
+.skp-footer .block-editor-block-list__layout {
   display: flex;
 }
-.skp-header .block-list-appender {
+.skp-footer .block-list-appender {
   left: -64px;
 }

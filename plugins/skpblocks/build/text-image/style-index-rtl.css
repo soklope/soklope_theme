@@ -373,4 +373,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .skp-text-image__inner {
   display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 1089px) {
+  .skp-text-image__inner {
+    flex-direction: row;
+  }
 }

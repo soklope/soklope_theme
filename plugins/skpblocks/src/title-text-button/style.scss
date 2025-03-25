@@ -1,18 +1,9 @@
 @use '../css/utilities/all' as *;
 @use '../css/variables/colors' as c;
 
-.skp-header {
-    height: 88px;
-    background-color: c.$light-grey;
-    color: c.$white;
-    
-    &__inner {
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-
-    .wp-block-site-logo {
-        margin-right: auto;
-    }
+.skp-title-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
 }

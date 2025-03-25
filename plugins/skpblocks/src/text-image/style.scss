@@ -1,8 +1,15 @@
 @use '../css/utilities/all' as *;
 @use '../css/variables/colors' as c;
+@use '../css/mixins/breakpoints' as *;
 
 .skp-text-image {
     &__inner {
         display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        @include break(laptop) {
+            flex-direction: row;
+        }
     }
 }

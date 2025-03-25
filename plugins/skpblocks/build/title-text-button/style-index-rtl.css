@@ -371,16 +371,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--wp--preset--color--white);
   }
 }
-.skp-header {
-  height: 88px;
-  background-color: var(--wp--preset--color--light-grey);
-  color: var(--wp--preset--color--white);
-}
-.skp-header__inner {
+.skp-title-text-button {
   display: flex;
-  align-items: center;
-  height: 100%;
-}
-.skp-header .wp-block-site-logo {
-  margin-left: auto;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
 }

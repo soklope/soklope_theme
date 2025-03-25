@@ -26,6 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function create_block_skpblocks_block_init() {
 	register_block_type( __DIR__ . '/build/header' );
+	register_block_type( __DIR__ . '/build/footer' );
 	register_block_type( __DIR__ . '/build/burger' );
 	register_block_type( __DIR__ . '/build/text-image' );
 	register_block_type( __DIR__ . '/build/title-text-button' );

@@ -2,20 +2,20 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/text-image copy/block.json":
-/*!****************************************!*\
-  !*** ./src/text-image copy/block.json ***!
-  \****************************************/
+/***/ "./src/footer/block.json":
+/*!*******************************!*\
+  !*** ./src/footer/block.json ***!
+  \*******************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/title-text-button","version":"0.1.0","title":"Title Text Button","category":"skpblocks","icon":"text","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"skpblocks/footer","version":"0.1.0","title":"Footer","category":"skpblocks","icon":"button","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"textdomain":"skpblocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }),
 
-/***/ "./src/text-image copy/edit.js":
-/*!*************************************!*\
-  !*** ./src/text-image copy/edit.js ***!
-  \*************************************/
+/***/ "./src/footer/edit.js":
+/*!****************************!*\
+  !*** ./src/footer/edit.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -26,7 +26,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor.scss */ "./src/text-image copy/editor.scss");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor.scss */ "./src/footer/editor.scss");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
 
@@ -35,23 +35,26 @@ __webpack_require__.r(__webpack_exports__);
 
 function Edit() {
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)({
-    className: 'skp-text-image'
+    className: 'skp-footer'
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
     ...blockProps,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
-      renderAppender: _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.ButtonBlockAppender,
-      allowedBlocks: ["core/image", "core/paragraph", "core/button"]
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "skp-header__inner skp-page-container",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
+        renderAppender: _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.ButtonBlockAppender,
+        allowedBlocks: ["core/site-logo", "core/paragraph", "core/navigation"]
+      })
     })
   });
 }
 
 /***/ }),
 
-/***/ "./src/text-image copy/editor.scss":
-/*!*****************************************!*\
-  !*** ./src/text-image copy/editor.scss ***!
-  \*****************************************/
+/***/ "./src/footer/editor.scss":
+/*!********************************!*\
+  !*** ./src/footer/editor.scss ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -60,19 +63,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/text-image copy/index.js":
-/*!**************************************!*\
-  !*** ./src/text-image copy/index.js ***!
-  \**************************************/
+/***/ "./src/footer/index.js":
+/*!*****************************!*\
+  !*** ./src/footer/index.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/text-image copy/style.scss");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/text-image copy/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/text-image copy/save.js");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/text-image copy/block.json");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/footer/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/footer/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/footer/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/footer/block.json");
 /**
  * Registers a new block provided a unique name and an object defining its behavior.
  *
@@ -114,10 +117,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/text-image copy/save.js":
-/*!*************************************!*\
-  !*** ./src/text-image copy/save.js ***!
-  \*************************************/
+/***/ "./src/footer/save.js":
+/*!****************************!*\
+  !*** ./src/footer/save.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -132,20 +135,23 @@ __webpack_require__.r(__webpack_exports__);
 
 function save() {
   const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save({
-    className: 'skp-text-image'
+    className: 'skp-footer'
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     ...blockProps,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.InnerBlocks.Content, {})
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "skp-header__inner skp-page-container",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.InnerBlocks.Content, {})
+    })
   });
 }
 
 /***/ }),
 
-/***/ "./src/text-image copy/style.scss":
-/*!****************************************!*\
-  !*** ./src/text-image copy/style.scss ***!
-  \****************************************/
+/***/ "./src/footer/style.scss":
+/*!*******************************!*\
+  !*** ./src/footer/style.scss ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -304,8 +310,8 @@ module.exports = window["ReactJSXRuntime"];
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"text-image copy/index": 0,
-/******/ 			"text-image copy/style-index": 0
+/******/ 			"footer/index": 0,
+/******/ 			"footer/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -355,7 +361,7 @@ module.exports = window["ReactJSXRuntime"];
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["text-image copy/style-index"], () => (__webpack_require__("./src/text-image copy/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["footer/style-index"], () => (__webpack_require__("./src/footer/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

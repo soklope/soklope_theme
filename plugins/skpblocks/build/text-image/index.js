@@ -42,7 +42,6 @@ function Edit() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "skp-text-image__inner skp-page-container",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
-        renderAppender: _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.ButtonBlockAppender,
         allowedBlocks: ["core/image", "skpblocks/title-text-button"],
         template: [['core/image'], ['skpblocks/title-text-button']]
       })
