@@ -9,19 +9,21 @@ export default function Edit() {
 
     return (
         <div {...blockProps}>
-            <InnerBlocks
-                renderAppender={InnerBlocks.ButtonBlockAppender}
-                allowedBlocks={[
-                    "core/heading",
-                    "core/paragraph",
-                    "core/button",
-                ]}
-                template={[
-                    ['core/heading'], 
-                    ['core/paragraph'],
-                    ['core/button']
-                ]}
-            />
+            <div className='skp-title-text-button__inner skp-page-container'>
+                <InnerBlocks
+                    renderAppender={InnerBlocks.ButtonBlockAppender}
+                    allowedBlocks={[
+                        "core/heading",
+                        "core/paragraph",
+                        "core/button",
+                    ]}
+                    template={[
+                        ['core/heading'], 
+                        ['core/paragraph'],
+                        ['core/button']
+                    ]}
+                />
+            </div>
         </div>
     );
 }

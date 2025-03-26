@@ -7,7 +7,9 @@ export default function save() {
 
     return (
         <div {...blockProps}>
-            <InnerBlocks.Content/>
+            <div className='skp-title-text-button__inner skp-page-container'>
+                <InnerBlocks.Content/>
+            </div>
         </div>
     );
 }
