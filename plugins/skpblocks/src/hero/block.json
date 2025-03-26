@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "skpblocks/hero",
+	"version": "0.1.0",
+	"title": "Hero",
+	"category": "skpblocks",
+	"icon": "text",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"backgroundImage": {
+		  "type": "object",
+		  "default": {
+			"url": "",
+			"id": 0,
+			"alt": ""
+		  }
+		}
+	  },
+	"textdomain": "skpblocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

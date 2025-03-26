@@ -1,6 +1,6 @@
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header copy/style.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/hero/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
 *,
 *::before,
 *::after {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--wp--preset--color--green);
   font-family: var(--wp--preset--font-family--primary-font);
   font-size: var(--wp--preset--font-size--title-mobile);
-  margin-left: auto;
+  margin-right: auto;
 }
 .util-title::after {
   content: ".";
@@ -116,21 +116,21 @@ h1, h2, h3, h4, h5, h6 {
   .util-title {
     font-size: var(--wp--preset--font-size--title-tablet);
     top: 40px;
-    right: 40px;
+    left: 40px;
   }
 }
 @media (min-width: 1089px) {
   .util-title {
     font-size: var(--wp--preset--font-size--title-laptop);
     top: 48px;
-    right: 48px;
+    left: 48px;
   }
 }
 @media (min-width: 1538px) {
   .util-title {
     font-size: var(--wp--preset--font-size--title-desktop);
     top: 56px;
-    right: 56px;
+    left: 56px;
   }
 }
 
@@ -202,8 +202,8 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-button-prev {
   color: var(--wp--preset--color--white) !important;
   top: 28px !important;
-  left: 64px !important;
-  right: unset !important;
+  right: 64px !important;
+  left: unset !important;
 }
 .swiper-button-prev::after {
   font-family: var(--wp--preset--font-family--primary-font) !important;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .swiper-button-prev {
     top: 52px !important;
-    left: 96px !important;
+    right: 96px !important;
   }
   .swiper-button-prev::after {
     font-size: 20px !important;
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1089px) {
   .swiper-button-prev {
     top: 72px !important;
-    left: 104px !important;
+    right: 104px !important;
   }
   .swiper-button-prev::after {
     font-size: 20px !important;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1538px) {
   .swiper-button-prev {
     top: 80px !important;
-    left: 124px !important;
+    right: 124px !important;
   }
   .swiper-button-prev::after {
     font-size: 24px !important;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-button-next {
   color: var(--wp--preset--color--white) !important;
   top: 28px !important;
-  left: 20px !important;
+  right: 20px !important;
 }
 .swiper-button-next::after {
   font-family: var(--wp--preset--font-family--primary-font) !important;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .swiper-button-next {
     top: 52px !important;
-    left: 44px !important;
+    right: 44px !important;
   }
   .swiper-button-next::after {
     font-size: 20px !important;
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1089px) {
   .swiper-button-next {
     top: 72px !important;
-    left: 56px !important;
+    right: 56px !important;
   }
   .swiper-button-next::after {
     font-size: 20px !important;
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1538px) {
   .swiper-button-next {
     top: 80px !important;
-    left: 64px !important;
+    right: 64px !important;
   }
   .swiper-button-next::after {
     font-size: 24px !important;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   .swiper-scrollbar {
     display: block;
     width: 100% !important;
-    right: 0 !important;
+    left: 0 !important;
     bottom: 0 !important;
     height: 2px !important;
   }
@@ -371,17 +371,5 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--wp--preset--color--white);
   }
 }
-.skp-header {
-  height: 88px;
-  background-color: var(--wp--preset--color--light-grey);
-  color: var(--wp--preset--color--white);
-  margin-bottom: 120px;
-}
-.skp-header__inner {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-.skp-header .wp-block-site-logo {
-  margin-left: auto;
-}
+
+/*# sourceMappingURL=style-index.css.map*/

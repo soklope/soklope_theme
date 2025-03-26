@@ -1,11 +1,11 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "skpblocks/header",
+  "name": "skpblocks/title-text-button",
   "version": "0.1.0",
-  "title": "Header",
+  "title": "Title Text Button",
   "category": "skpblocks",
-  "icon": "button",
+  "icon": "text",
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {

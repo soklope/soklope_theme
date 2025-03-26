@@ -30,6 +30,7 @@ function create_block_skpblocks_block_init() {
 	register_block_type( __DIR__ . '/build/burger' );
 	register_block_type( __DIR__ . '/build/text-image' );
 	register_block_type( __DIR__ . '/build/title-text-button' );
+	register_block_type( __DIR__ . '/build/hero' );
 }
 add_action( 'init', 'create_block_skpblocks_block_init' );
 
